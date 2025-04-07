@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Restaurant Logo</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" id="specials-link">Specials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home-section">
+            <h1>Welcome to Our Menu</h1>
+            <div class="tiles">
+                <!-- Tiles for categories will be generated dynamically via JS -->
+            </div>
+        </section>
+        <section id="category-section" class="hidden">
+            <h2 id="category-name"></h2>
+            <ul id="menu-items-list">
+                <!-- Menu items will be injected here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Restaurant</p>
+    </footer>
+</body>
+</html>
